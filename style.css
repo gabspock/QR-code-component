@@ -30,12 +30,13 @@ body {
   font-size: 25px;
   font-weight:bold;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .container {
   background-color: var(--White);
   max-width: 338px; /* Largura máxima fixa */
-  margin-bottom: 2rem; /* Margem inferior para evitar que o footer fique muito próximo */
+  margin: 0 auto;
 
   border-radius: 20px;
   position: absolute;
@@ -44,6 +45,7 @@ body {
 }
 
 .mainContainer {
+  margin: 0;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -51,10 +53,9 @@ body {
 }
 
 .imgDiv {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 0;
   border-radius: 20px;
-  height: 15rem;
+  height: 19rem;
 }
 
 .container p {
